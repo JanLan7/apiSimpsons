@@ -4,47 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Citas de Los Simpson</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #f0f0f0;
-        }
-        #quote-container {
-            text-align: center;
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        #quote {
-            font-size: 1.5em;
-            margin-bottom: 20px;
-        }
-        #character {
-            font-size: 1.2em;
-            color: #555;
-        }
-        #character-img {
-            margin-top: 20px;
-            width: 150px;
-            height: auto;
-            border-radius: 10px;
-        }
-        #new-quote {
-            margin-top: 20px;
-            padding: 10px 20px;
-            font-size: 1em;
-            cursor: pointer;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div id="quote-container">
         <div id="quote">Haz clic en el botón para obtener una cita</div>
+        <div id="translated-quote"></div>
         <div id="character"></div>
         <img id="character-img" src="" alt="Imagen del personaje" style="display: none;">
         <button id="new-quote">Nueva Cita</button>
